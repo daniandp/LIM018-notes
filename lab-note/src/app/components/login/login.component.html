@@ -1,0 +1,26 @@
+<section class="cont-login">
+    <div class="cont-form">
+        <form class="form-login">
+            <h2 class="welcome-login">¡Bienvenido!</h2>
+            <h2 class="log-in">Inicia sesión</h2>
+            <div class="cont-inputs-login">
+                <input class="input-login" id="user-email" type="email" placeholder="Correo electrónico" />
+                <input class="input-login" id="user-password" type="password" placeholder="Contraseña" />
+                <a class="links-redirect" routerLink="/list" routerLinkActive="active" >¿Olvidaste tu contraseña?</a>
+            </div>
+            <button type="button" class="btn-access btn-general">Acceder</button>
+            <p id="message-error"></p>
+            <div class="separator">
+                <hr class="hr" />O<hr class="hr" />
+            </div>
+            <button type="button" class="btn-google btn-general">
+                <img class="google-icon" src="./img/googleicon.png" alt="icono de google"/>
+                Continuar con Google
+            </button>
+            <div class="links-redirect">
+                ¿No tienes una cuenta?
+                <a class="links-redirect" routerLink="/list" routerLinkActive="active">Regístrate ahora</a>
+            </div>
+        </form>
+    </div>
+</section>
