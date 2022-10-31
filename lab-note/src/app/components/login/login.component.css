@@ -15,7 +15,7 @@ font-family: 'Nunito Sans', sans-serif; */
   height: 100vh;
   background-color:#006600;
   font-family: 'Roboto', sans-serif;
-  padding-top: 4.688rem;
+  padding-top: 6.1rem;
 }
 
 .cont-form-login{
@@ -26,6 +26,7 @@ font-family: 'Nunito Sans', sans-serif; */
   background-color: #FFF;
   border: 1px solid #000;
   border-radius: 0.625rem;
+  row-gap: 10rem;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FORM LOGIN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -45,7 +46,7 @@ font-family: 'Nunito Sans', sans-serif; */
   flex-direction: column;
   justify-content: center;
   height: 13rem;
-  row-gap: 0.625rem;
+  row-gap: 0.8rem;
 }
 
 .input-login {
@@ -98,5 +99,5 @@ font-family: 'Nunito Sans', sans-serif; */
 }
 
 .google-icon {
-  height: 70%;
+  height: 66%;
 }

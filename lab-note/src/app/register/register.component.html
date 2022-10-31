@@ -1,0 +1,28 @@
+<app-header></app-header>
+<section class="cont-register">
+    <div class="cont-form-register">
+        <form class="form-register">
+            <h2>¡Bienvenido!</h2>
+            <h2>Regístrate</h2>
+            <div class="cont-inputs-register">
+                <input class="input-register" id="user-email" type="email" placeholder="Correo electrónico" />
+                <input class="input-register" id="user-password" type="text" placeholder="Nombre completo" />
+                <input class="input-register" id="user-password" type="password" placeholder="Contraseña" />
+                <a class="links-redirect" routerLink="/list" routerLinkActive="active" >¿Olvidaste tu contraseña?</a>
+            </div>
+            <button type="button" class="btn-register btn-general">Registrar</button>
+            <p class="message-error">MENSAJE DE ERROR</p>
+            <div class="separator">
+                <hr class="hr" />O<hr class="hr" />
+            </div>
+            <button type="button" class="btn-google btn-general">
+                <img class="google-icon" src="./assets/images/google.png" alt="icono de google"/>
+                Continuar con Google
+            </button>
+            <div class="links-redirect">
+                ¿Ya tienes una cuenta?
+                <a class="links-redirect" routerLink="/list" routerLinkActive="active">Inicia sesión ahora</a>
+            </div>
+        </form>
+    </div>
+</section>
