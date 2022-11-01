@@ -15,14 +15,14 @@ font-family: 'Nunito Sans', sans-serif; */
   height: 100vh;
   background-color:#006600;
   font-family: 'Roboto', sans-serif;
-  padding-top: 6.1rem;
+  padding-top: 4.5rem;
 }
 
 .cont-form-login{
   display: flex;
   justify-content: center;
-  width: 60%;
-  height: 75%;
+  width: 26rem;
+  height: 39.8rem;
   background-color: #FFF;
   border: 1px solid #000;
   border-radius: 0.625rem;

@@ -5,13 +5,13 @@
             <h2>¡Bienvenido!</h2>
             <h2>Regístrate</h2>
             <div class="cont-inputs-register">
-                <input class="input-register" id="user-email" type="email" placeholder="Correo electrónico" />
-                <input class="input-register" id="user-password" type="text" placeholder="Nombre completo" />
-                <input class="input-register" id="user-password" type="password" placeholder="Contraseña" />
+                <input #userEmail class="input-register" type="email" placeholder="Correo electrónico" (change)="validateEmail($event)" />
+                <input #userName class="input-register" type="text" placeholder="Nombre completo" />
+                <input #userPassword class="input-register" type="password" placeholder="Contraseña" />
                 <a class="links-redirect" routerLink="/list" routerLinkActive="active" >¿Olvidaste tu contraseña?</a>
             </div>
-            <button type="button" class="btn-register btn-general">Registrar</button>
-            <p class="message-error">MENSAJE DE ERROR</p>
+            <button type="button" class="btn-register btn-general" (click)="registerWithEmailAndPassword()">Registrar</button>
+            <p #messageError class="message-error"></p>
             <div class="separator">
                 <hr class="hr" />O<hr class="hr" />
             </div>
@@ -21,7 +21,7 @@
             </button>
             <div class="links-redirect">
                 ¿Ya tienes una cuenta?
-                <a class="links-redirect" routerLink="/list" routerLinkActive="active">Inicia sesión ahora</a>
+                <a class="links-redirect" routerLink="/login" routerLinkActive="active">Inicia sesión ahora</a>
             </div>
         </form>
     </div>

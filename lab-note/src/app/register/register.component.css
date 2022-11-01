@@ -15,14 +15,14 @@ font-family: 'Nunito Sans', sans-serif; */
     height: 100vh;
     background-color:#006600;
     font-family: 'Roboto', sans-serif;
-    padding-top: 6.1rem;
+    padding-top: 4.5rem;
   }
   
   .cont-form-register{
     display: flex;
     justify-content: center;
-    width: 60%;
-    height: 85%;
+    width: 26rem;
+    height: 39.8rem;
     background-color: #FFF;
     border: 1px solid #000;
     border-radius: 0.625rem;
@@ -73,6 +73,14 @@ font-family: 'Nunito Sans', sans-serif; */
     border-radius: 0.625rem;
     border: none;
     filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.5));
+  }
+
+  .message-error {
+    display: none;
+    color: #000;
+    font-weight:700;
+    padding: 10px;
+    border-radius: 0.625rem;
   }
   
   .separator {
